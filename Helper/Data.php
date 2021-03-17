@@ -22,13 +22,12 @@
 namespace Lof\Seo\Helper;
 
 use Magento\Theme\Block\Html\Header\Logo;
-use Lof\Core\Helper\AbstractData as CoreHelper;
 
 /**
  * Class Data
  * @package Lof\Seo\Helper
  */
-class Data extends CoreHelper
+class Data extends AbstractData
 {
     const CONFIG_MODULE_PATH = 'seo';
 
