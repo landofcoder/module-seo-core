@@ -1,0 +1,32 @@
+{
+  "name": "landofcoder/module-seo-extension",
+  "description": "Magento 2 SEO extension",
+  "require": {
+    "landofcoder/module-all": "*"
+  },
+  "type": "magento2-module",
+  "version": "4.0.0",
+  "license": "proprietary",
+  "keywords": [
+    "magento 2",
+    "landofcoder",
+    "seo",
+    "magento 2 seo"
+  ],
+  "authors": [
+    {
+      "name": "Landofcoder",
+      "email": "support@landofcoder.com",
+      "homepage": "https://www.landofcoder.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Lof\\Seo\\": ""
+    }
+  }
+}
